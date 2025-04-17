@@ -130,6 +130,7 @@ function Summery({enabledNext}) {
             <p> {Array.isArray(item.summary)
             ? item.summary.join(' ')
             : item.summary}</p>
+            {/* <p>{item?.summary}</p> */}
             
             {/* <div dangerouslySetInnerHTML={{ __html: item.summery }} /> */}
 
